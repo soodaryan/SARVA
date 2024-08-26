@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Earth Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Google Earth</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Search Google Earth">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">File</a></li>
+                <li><a href="#">View</a></li>
+                <li><a href="#">Add</a></li>
+                <li><a href="#">Tools</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="sidebar">
+            <button class="new-project">New</button>
+            <div class="projects">
+                <!-- Project items will be loaded here -->
+            </div>
+        </section>
+
+        <section class="earth-view">
+            <div class="globe">
+                <img src="earth.jpg" alt="Earth Globe">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="google-attribution">
+            <span>Google</span>
+            <input type="range" min="1" max="100" value="100" class="zoom-slider">
+            <span>100%</span>
+            <span>Data attribution</span>
+        </div>
+        <div class="controls">
+            <button class="zoom-in">+</button>
+            <button class="zoom-out">-</button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
