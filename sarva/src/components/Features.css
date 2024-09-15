@@ -1,0 +1,70 @@
+
+  
+  .sidePanel {
+    position: fixed;
+    left: 0;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #09090A;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 1000;
+  }
+  
+  .sidePanel.open {
+    width: 4rem;
+  }
+  .panelTitle {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  .closeBtn {
+    font-size: 2rem;
+    color: #fff;
+    border: none;
+    background: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+  }
+  
+  .panelMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .panelItem {
+    margin: 1rem 1rem;
+  }
+  
+  .panelLink {
+    color: #fff;
+    gap: 10px ;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    /* justify-content:left ; */
+    padding: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .panelLink:hover {
+    background-color: #555;
+  }
+  .searchBox{
+    margin : 1.5rem ;
+    height: 20px;
+    justify-content: center;
+    background-color: #1F1F22;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+  }

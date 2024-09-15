@@ -1,0 +1,57 @@
+body{
+    background-color: #0B0C15;
+}
+.navbar {
+    background-color: #0B0C15;
+    padding: 2rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: fixed; 
+    width: 100%; 
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+  }
+  
+.navList {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+.navItem {
+    margin: 0 1.5rem; /* Increased spacing between items */
+  }
+  
+.navLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease, border-bottom 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+.navLink:hover {
+    color: #f39c12; /* Change color on hover for a highlight effect */
+    border-bottom: 2px solid #f39c12; /* Underline effect on hover */
+  }
+  .searchBoxNav{
+    height: 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .searchButton{
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    border-radius: 100%;
+    left: -50px;
+
+  }
+  
