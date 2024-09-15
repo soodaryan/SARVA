@@ -48,9 +48,9 @@ const SidePanel = () => {
                 </li>
             </ul>
         </div>  
-        <div>
+        <div style={{ display: 'flex', flexDirection: 'row' }}>
             <button className='LogButton'><img src={Logout} alt='' /></button>
-            <button className='LightMode'>Light Mode</button>
+            <div className='Log' style={{ color: 'white', alignItems: 'center' }}> Logout </div>
         </div>  
       </div>
 

@@ -3,7 +3,7 @@
   .sidePanel {
     position: fixed;
     left: 0;
-    height: 82vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -67,4 +67,13 @@
     border: none;
     border-radius: 20px;
     padding: 10px;
+  }
+  .LogButton{
+    margin : 1.5rem ;
+    height: 40px;
+    background-color: #09090A;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px ;
   }
