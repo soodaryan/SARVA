@@ -1,5 +1,7 @@
 body{
     background-color: #0B0C15;
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
 }
 .navbar {
     background-color: #0B0C15;

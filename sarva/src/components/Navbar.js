@@ -1,30 +1,29 @@
 import React from 'react';
-import Sarva from './images/Sarva_logo_1.png' 
-import './Navbar.css'; 
+import { Link } from 'react-router-dom';
+import Sarva from './images/Sarva_logo_1.png';
+import './Navbar.css';
+
 const Navbar = () => {
   return (
     <nav className='navbar'>
       <img src={Sarva} alt='Sarva' />
       <ul className='navList'>
-        <li className='navItem' >
-          <div className='navLink'>Home</div>
+        <li className='navItem'>
+          <Link to="/" className='navLink'>Home</Link>
         </li>
         <li className='navItem'>
-          <div className='navLink' >About</div>
+          <Link to="/dashboard" className='navLink'>Dashboard</Link>
         </li>
         <li className='navItem'>
-          <div className='navLink'>Activities</div>
+          <Link to="/features" className='navLink'>Features</Link>
         </li>
         <li className='navItem'>
-          <div className='navLink'>Login / SignUp</div>
+          <Link to="/login" className='navLink'>Login / SignUp</Link>
         </li>
       </ul>
       <div className='searchContainer'>
         <input type='text' placeholder='Search...' className='searchBoxNav' />
-        {/* <button className='searchButton'>🔍</button> */}
       </div>
-
-      
     </nav>
   );
 };

@@ -62,7 +62,7 @@ body, html {
 }
 
 .hero-section {
-    background-image: url('C:\Users\beeta\OneDrive\Desktop\SIH F\SARVA\sarva\public\SAR BACK 2.png');
+    background-image: url('./images/SAR_BACK_2.png');
     background-size: cover;
     background-position: center;
     display: flex;

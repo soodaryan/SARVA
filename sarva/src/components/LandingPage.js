@@ -56,20 +56,7 @@ import './LandingPage.css'; // Make sure to include the CSS for styling
 const LandingPage = () => {
     return (
         <div className="landing-page">
-            <nav className="navbar">
-                <img src="/Sarva logo.jpg" alt="SARVA Logo" className="sarva-logo" />
-                <ul className="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#activities">Activities</a></li>
-                    <li><a href="#login">Login/Sign Up</a></li>
-                </ul>
-                <div className="search-box">
-                    <input type="text" placeholder="Search..." />
-                    <button>🔍</button>
-                </div>
-            </nav>
-
+            
             <header className="hero-section">
                 <div className="overlay">
                     <div className="hero-content">
