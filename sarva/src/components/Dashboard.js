@@ -1,12 +1,12 @@
-// src/components/Dashboard.js
-import React from 'react';
+// // src/components/Dashboard.js
+// import React from 'react';
 
-const Dashboard = () => {
-  return (
-    <div>
-      <h1>SARVA</h1>
-    </div>
-  );
-};
+// const Dashboard = () => {
+//   return (
+//     <div>
+//       <h1>SARVA</h1>
+//     </div>
+//   );
+// };
 
-export default Dashboard;
+// export default Dashboard;

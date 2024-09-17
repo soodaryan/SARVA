@@ -1,12 +1,18 @@
 
-  
+  .sarva{
+    margin-top: -50px  ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .sidePanel {
+    margin-top: 1.5rem;
     position: fixed;
     left: 0;
     height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #09090A;
     overflow-x: hidden;
     transition: 0.5s;
@@ -21,7 +27,7 @@
     color: #fff;
     font-size: 1.5rem;
     text-align: center;
-    margin: 1rem 0;
+    margin: 2rem 0;
   }
   .closeBtn {
     font-size: 2rem;
@@ -41,17 +47,19 @@
   }
   
   .panelItem {
-    margin: 1rem 1rem;
+    margin: 0.5rem 0.5rem;
   }
   
   .panelLink {
     color: #fff;
     gap: 10px ;
+    margin-top: -10px ;
+    margin-left: 10px ;
     text-decoration: none;
     font-size: 1.2rem;
     display: flex;
     flex-direction: row;
-    /* justify-content:left ; */
+    align-items: center;
     padding: 1rem;
     transition: background-color 0.3s;
   }
@@ -68,12 +76,83 @@
     border-radius: 20px;
     padding: 10px;
   }
-  .LogButton{
-    margin : 1.5rem ;
+  .mainArea {
+    /* margin-left: 4rem; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .Logout{
+    color: #fff;
+    gap: 10px ;
+    margin-top: -40px ;
+    margin-left: 21px ;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    transition: background-color 0.3s;
+  }
+  .upload-file{
+    width: 120px;
+    margin : 5rem ;
+    /* margin-left: 10rem; */
     height: 40px;
     background-color: #09090A;
     border: none;
     border-radius: 20px;
     padding: 10px;
     gap: 10px ;
+    display: inline-block;
   }
+
+
+  .file-input-container {
+    margin: 5rem 20rem 0 ;
+    width : 30%;
+    position: relative;
+  }
+  
+  .custom-file-input {
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    background-color: #1F1F22;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+  }
+  .colorized{
+    width: 100px ;
+    margin-top: -400px;
+    margin-left: 900px ; 
+
+  }
+  
+  .custom-file-input:hover {
+    background-color: #1F1F22;
+  }
+  
+  input[type="file"] {
+    display: none; 
+  }
+  
+  .label-file-input {
+    display: inline-block;
+    width: 100px ;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    background-color: #1F1F22;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .label-file-input:hover {
+    background-color: #1F1F22; 
+  }
+  

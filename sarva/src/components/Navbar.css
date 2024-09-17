@@ -8,7 +8,8 @@ body{
     padding: 2rem 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     position: fixed; 
-    width: 100%; 
+    width: 95%; 
+    height: 4.5rem;
     display: flex;
     justify-content: space-around;
     top: 0;
@@ -39,21 +40,23 @@ body{
     color: #f39c12; /* Change color on hover for a highlight effect */
     border-bottom: 2px solid #f39c12; /* Underline effect on hover */
   }
-  .searchBoxNav{
-    height: 20px;
-    background-color: #fff;
-    border: none;
-    border-radius: 20px;
-    padding: 10px;
-  }
-  .searchButton{
-    height: 40px;
-    background-color: #fff;
-    border: none;
-    border-radius: 20px;
-    padding: 10px;
-    border-radius: 100%;
-    left: -50px;
+.searchBoxNav{
+  height: 20px;
+  width:100%;
+  margin: 0 4px;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+}
+.searchButton{
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  border-radius: 100%;
+  /* left: -50px; */
 
-  }
+}
   
